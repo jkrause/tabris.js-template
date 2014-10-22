@@ -1,0 +1,18 @@
+{
+  "title": "Patient Console",
+  "description": "A mockup of the patient console",
+  "resources": [
+    {
+      "src": "tabris.js"
+    },
+    {
+      "src": "main.js"
+    },
+    {
+      "src": "startPage.js"
+    },
+    {
+      "src": "secondPage.js"
+    }
+  ]
+}

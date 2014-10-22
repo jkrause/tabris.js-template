@@ -1,0 +1,11 @@
+
+
+// This recipe includes all the files referenced by index.html using this 
+// regular expression to extract them
+//	.sequence("src/", "njsdoc-demo/src/index.html", "<script.*src=\"(.*)\\\"")
+//     .file("src/lib/tabris.js")
+
+JSDT.recipe("Recipe2")
+    .file(".settings/jquery.js")
+   	.define();
+	
