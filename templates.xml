@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="javaScript" deleted="false" description="An executable item that is integrated in the application's navigation menu. Add a listener on `selection` to implement the action" enabled="true" name="tabrisAction">tabris.create("Action", {
+  enabled: ${true},
+  placementPriority: "${HIGH}",
+  title: "${text}"
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="create Button" enabled="true" name="tabrisButton">tabris.create("Button", {
+  text: "${text}",
+  layoutData: { left: ${left}, top: ${top} }
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="A composite on which graphics can be drawn" enabled="true" name="tabrisCanvas">tabris.create("Canvas", {
+  layoutData: { left: ${left}, top: ${top} }
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="A check box widget" enabled="true" name="tabrisCheckbox">tabris.create("CheckBox", {
+  text: "${text}",
+  selection: ${false},
+  layoutData: { left: ${left}, top: ${top} }
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="A widget with a drop-down list of items to choose from" enabled="true" name="tabrisCombo">tabris.create("Combo", {
+  items: ["${item1}", "${item2}"],
+  text: "${text}",
+  selectionIndex: ${number},
+  layoutData: { left: ${left}, top: ${top} }
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="An empty widget that can contain other widgets" enabled="true" name="tabrisComposite">tabris.create("Composite", {
+  layoutData: { left: ${left}, top: ${top} }
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="A widget to display an image" enabled="true" name="tabrisImageView">tabris.create("ImageView", {
+  image : {
+    src : "${path}"
+  },
+  scaleMode: "${fill}",
+  layoutData: { left: ${left}, top: ${top} }
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="create Label" enabled="true" name="tabrisLabel">tabris.create("Label", {
+  text: "${text}",
+  font: "${font}",
+  layoutData: { left: ${left}, top: ${top} }
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="A scrollable list that display data items, one per row" enabled="true" name="tabrisList">tabris.create("List", {
+  items: [${items}],
+  itemHeight: ${number},
+  linesVisible: ${false},
+  layoutData: { left: ${left}, top: ${top} }
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="Pages contain an application's UI" enabled="true" name="tabrisPage">tabris.create("Page", {
+  title: "${text}",
+  topLevel: ${boolean},
+  image: "${path}"
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="A widget representing a numeric value as a horizontal bar with a growing indicator" enabled="true" name="tabrisProgressBar">tabris.create("ProgressBar", {
+  minimum: ${0},
+  maximum: ${100},
+  selection: ${0},
+  state: "${normal}",
+  layoutData: { left: ${left}, top: ${top} }
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="A radio button" enabled="true" name="tabrisRadioButton">tabris.create("RadioButton", {
+  text: "${text}",
+  selection: ${false},
+  layoutData: { left: ${left}, top: ${top} }
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="A composite that allows its content to overflow either vertically (default) or horizontally." enabled="true" name="tabrisScrollComposite">tabris.create("ScrollComposite", {
+  scroll: "${vertical}",
+  layoutData: { left: ${left}, top: ${top} }
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="A widget representing a numeric value as an movable indicator on a horizontal line." enabled="true" name="tabrisSlider">tabris.create("Slider", {
+  minimum: ${0},
+  maximum: ${100},
+  selection: ${0},
+  layoutData: { left: ${left}, top: ${top} }
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="A container representing a single tab of the TabFolder widget" enabled="true" name="tabrisTab">tabris.create("Tab", {
+  title: "${text}"
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="A widget that can switch between [tabs](#Tab)" enabled="true" name="tabrisTabFolder">tabris.create("TabFolder", {
+  paging: ${false},
+  layoutData: { left: ${left}, top: ${top}, height:${height} }
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="A widget that allows to enter text." enabled="true" name="tabrisText">tabris.create("Text", {
+  text: "${text}",
+  editable: ${boolean},
+  type: "${default}",
+  layoutData: { left: ${left}, top: ${top} }
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="A push button that remains pressed" enabled="true" name="tabrisToggleButton">tabris.create("ToggleButton", {
+  text: "${text}",
+  selection: ${false},
+  layoutData: { left: ${left}, top: ${top} }
+})${cursor}</template><template autoinsert="true" context="javaScript" deleted="false" description="A widget that can display a web page" enabled="true" name="tabrisWebView">tabris.create("WebView", {
+  url: "${url}",
+  layoutData: { left: ${left}, top: ${top} }
+})${cursor}</template></templates>
