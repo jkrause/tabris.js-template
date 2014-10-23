@@ -5,13 +5,13 @@ var createStartPage = function() {
     title: "My App"
   });
   
-  tabris.create( "Label", {
-    layoutData: { centerX: 0, centerY: 0 },
-    image: { src: "img/target_200.png", width: 200, height: 200}
+  tabris.create( "ImageView", {
+    layoutData: { centerX: 0, centerY: 0, width: 200, height: 200 },
+    image: {src: "img/target_200.png"}
   }).appendTo( page )
-    .on("touchstart", function() {
+    .on("selection", function() {
        createSecondPage().open();
-       console.log("Created second page");
+       console.log("This is how you log messages");
   });
   
   return page;

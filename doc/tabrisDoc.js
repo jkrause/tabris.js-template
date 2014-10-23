@@ -67,18 +67,32 @@ var Widget = {
 	   @param eventName  the name of the event
 	   @param listener the function to execute
 	   @param [context] - optional
+	   @return {Widget} self - allowing for a fluet api
 	   */
 	on: function( eventName, listener, context ) {
+	  return this;
 	},
 	  /**
 	   * De-Registers a listener for an event on a native widget
 	   @param eventName the name of the event
 	   @param listener - the function to de-register
 	   @param [context] - optional
+	   @return {Widget} self - allowing for a fluet api
 	   */
 	off: function( eventName, listener, context ) {
+      return this;
 	},
 	  /**
+	   * Congi
+	   @param eventName the name of the event
+	   @param listener - the function to de-register
+	   @param [context] - optional
+	   @return {Widget} self - allowing for a fluet api
+	   */
+	animate: function( eventName, listener, context ) {
+    return this;
+	},
+	/**
 	   * Disposes of a native widget
 	   */
 	dispose: function() {
