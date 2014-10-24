@@ -5,7 +5,7 @@ var createStartPage = function() {
     title: "My App"
   });
   
-  tabris.create( "ImageView", {
+  tabris.create( "Label", {
     layoutData: { centerX: 0, centerY: 0, width: 200, height: 200 },
     image: {src: "img/target_200.png"}
   }).appendTo( page )
