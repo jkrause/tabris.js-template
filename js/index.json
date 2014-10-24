@@ -1,6 +1,4 @@
 {
-  "title": "Patient Console",
-  "description": "A mockup of the patient console",
   "resources": [
     {
       "src": "http://download.eclipsesource.com/technology/tabris/js/current/tabris.min.js"
