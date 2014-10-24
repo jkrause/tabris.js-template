@@ -9,7 +9,7 @@ var createStartPage = function() {
     layoutData: { centerX: 0, centerY: 0, width: 200, height: 200 },
     image: {src: "img/target_200.png"}
   }).appendTo( page )
-    .on("selection", function() {
+    .on("touchend", function() {
        createSecondPage().open();
        console.log("This is how you log messages");
   });
